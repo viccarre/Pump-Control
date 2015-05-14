@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1490F7FD-AE15-4A3D-B177-052AEDBA77FB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>18F3B5718D8822C3B3F6A456C427275D8A054E7A</key>
+		<string>https://github.com/viccarre/Pump-Control.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pump Control.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>18F3B5718D8822C3B3F6A456C427275D8A054E7A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/viccarre/Pump-Control.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>18F3B5718D8822C3B3F6A456C427275D8A054E7A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>18F3B5718D8822C3B3F6A456C427275D8A054E7A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pump%20Controll</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -169,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B1392301B02AE6E001ADE9A /* Build configuration list for PBXProject "Pump Controll" */;
+			buildConfigurationList = 5B1392301B02AE6E001ADE9A /* Build configuration list for PBXProject "Pump Control" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -398,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B1392301B02AE6E001ADE9A /* Build configuration list for PBXProject "Pump Controll" */ = {
+		5B1392301B02AE6E001ADE9A /* Build configuration list for PBXProject "Pump Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B1392521B02AE6E001ADE9A /* Debug */,
@@ -414,6 +414,7 @@
 				5B1392561B02AE6E001ADE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B1392571B02AE6E001ADE9A /* Build configuration list for PBXNativeTarget "Pump ControllTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				5B1392591B02AE6E001ADE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

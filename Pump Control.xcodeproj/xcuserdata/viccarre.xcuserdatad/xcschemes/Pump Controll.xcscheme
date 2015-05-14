@@ -59,7 +59,7 @@
             BlueprintIdentifier = "5B1392341B02AE6E001ADE9A"
             BuildableName = "Pump Controll.app"
             BlueprintName = "Pump Controll"
-            ReferencedContainer = "container:Pump Controll.xcodeproj">
+            ReferencedContainer = "container:Pump Control.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -79,7 +79,7 @@
             BlueprintIdentifier = "5B1392341B02AE6E001ADE9A"
             BuildableName = "Pump Controll.app"
             BlueprintName = "Pump Controll"
-            ReferencedContainer = "container:Pump Controll.xcodeproj">
+            ReferencedContainer = "container:Pump Control.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

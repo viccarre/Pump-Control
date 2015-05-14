@@ -38,25 +38,42 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auto" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhH-Zx-cOY">
                                 <rect key="frame" x="279" y="67" width="36" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Extractor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4g-PT-JT8">
                                 <rect key="frame" x="387" y="161" width="70" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pump" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJf-mP-nYj">
                                 <rect key="frame" x="154" y="161" width="46" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6k-SM-cAE">
+                                <rect key="frame" x="178" y="247" width="244" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="244" id="bh8-Gd-UBe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Water level (cm)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3L-2L-9FC">
+                                <rect key="frame" x="239" y="276" width="122" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="d3L-2L-9FC" secondAttribute="centerX" id="6D3-sz-fvJ"/>
                             <constraint firstAttribute="centerY" secondItem="znQ-Wl-2KY" secondAttribute="centerY" constant="94.5" id="6Zb-fV-5Cy"/>
+                            <constraint firstAttribute="centerY" secondItem="z6k-SM-cAE" secondAttribute="centerY" constant="42.5" id="9mu-t2-XX6"/>
                             <constraint firstAttribute="centerY" secondItem="FcD-B5-opN" secondAttribute="centerY" constant="188.5" id="CIS-fh-hDU"/>
                             <constraint firstAttribute="centerY" secondItem="V4g-PT-JT8" secondAttribute="centerY" constant="128.5" id="HQs-zc-cPd"/>
                             <constraint firstAttribute="centerY" secondItem="gJf-mP-nYj" secondAttribute="centerY" constant="128.5" id="UeW-Z6-Ajh"/>
@@ -64,12 +81,17 @@
                             <constraint firstAttribute="centerX" secondItem="gJf-mP-nYj" secondAttribute="centerX" constant="123" id="ebr-4x-Xts"/>
                             <constraint firstAttribute="centerX" secondItem="FcD-B5-opN" secondAttribute="centerX" constant="-0.5" id="ech-Sl-bYB"/>
                             <constraint firstAttribute="centerX" secondItem="37i-R2-5by" secondAttribute="centerX" constant="-122.5" id="ib3-tN-EGN"/>
+                            <constraint firstAttribute="centerY" secondItem="d3L-2L-9FC" secondAttribute="centerY" constant="13.5" id="ij8-Bi-q3F"/>
+                            <constraint firstAttribute="centerX" secondItem="z6k-SM-cAE" secondAttribute="centerX" id="pgV-ZJ-Shg"/>
                             <constraint firstAttribute="centerY" secondItem="hhH-Zx-cOY" secondAttribute="centerY" constant="222.5" id="qC8-49-X3i"/>
                             <constraint firstAttribute="centerX" secondItem="znQ-Wl-2KY" secondAttribute="centerX" constant="122.5" id="tGt-d0-PEb"/>
                             <constraint firstAttribute="centerX" secondItem="hhH-Zx-cOY" secondAttribute="centerX" constant="3" id="wSa-uO-t82"/>
                             <constraint firstAttribute="centerX" secondItem="V4g-PT-JT8" secondAttribute="centerX" constant="-122" id="zxm-ip-Igh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="temp" destination="z6k-SM-cAE" id="09f-ao-goS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
